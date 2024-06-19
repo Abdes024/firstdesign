@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgba(25, 27, 32, 1);
+    font-family: 'Inria Sans';
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 15%;
+    background-color: rgba(20, 21, 23, 1);
+
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-family: Inria Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.16px;
+    text-align: left;
+
+}
+.logo .be {
+    color: red;
+    font-weight: bold;
+    font-family: 'Inria Sans';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.16px;
+    text-align: left;
+
+}
+.logo .movies {
+    color: white;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: Inria Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.79px;
+    letter-spacing: 0.03em;
+    /* text-align: left; */
+
+}
+nav ul li a:hover {
+    background-color: #333;
+    border-radius: 3px;
+}
+
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 73px;
+
+}
+.text-input {
+    width:228px;
+    height: 44px;
+    padding-left: 18px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 8px 0 0 8px;
+    border: none;
+} 
+.arrow-button {
+    background-color: rgba(204, 0, 0, 1);
+    color: white;
+    width: 44px;
+    height: 44px;
+    border-radius: 0 8px 8px 0;
+    border: none;
+    cursor: pointer;
+}
+.arrow-button:hover {
+    background-color: rgba(153, 0, 0, 1);
+}
+.resultsearch{
+    max-width: 1075px;
+    max-height: 380px;
+    margin: 63px 183px;
+}
+
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: 'Inria Sans';
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+p{
+    color: #fff;
+}
+.latest{
+    max-width: 1075px;
+    max-height: 380px;
+    margin: 63px 183px;
+}
+.sectiongenre{
+    max-width: 1075px;
+    max-height: 380px;
+    margin: 63px 183px;
+}
+#moviebygenre{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 46px;
+}
+.listgenre ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+}
+.listgenre ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+}
+.listgenre ul li a:hover {
+    background-color: #333;
+    border-radius: 8px;
+    background: rgba(204, 0, 0, 1);
+
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 510px;
+    margin: 20px 282px;
+}
+
+.footer-container {
+    background-color: rgba(20, 21, 23, 1);
+    color: #fff;
+    padding: 10px 180px;
+    align-items: center;
+    font-family: 'Inria Sans';
+    display: flex;
+    justify-content: space-between;
+    height: 186px;
+} 
+.footer-logo {
+    font-family: Inria Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.16px;
+    text-align: left;
+
+}
+.footer-logo .be {
+    color: rgba(204, 0, 0, 1);
+
+}
+.footer-links ul {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+.footer-links ul a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Inria Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.79px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
