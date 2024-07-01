@@ -1,4 +1,10 @@
 
+    const menu = document.getElementById("navMenu");
+    const navItems = document.getElementById("navItems");
+
+    menu.addEventListener("click", function () {
+      navItems.classList.toggle("hidden");
+    });
 
     let swiper = new Swiper(".filmSwiper", {
         slidesPerView: 4,

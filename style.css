@@ -592,3 +592,137 @@ z-index: 111;
     z-index: 111;
     right: -40px;
   }
+
+  /* Mobile devices */
+@media only screen and (max-width: 767px) {
+	hr {
+		display: none;
+	}
+	header {
+		padding: 4px 8px;
+		flex-direction: column;
+		gap: 30px;
+	}
+	.logo {
+		flex-direction: row;
+		width: 100%;
+		justify-content: space-between;
+	}
+	.logo img {
+		display: block !important;
+		width: 36px;
+		height: 36px;
+	}
+	nav {
+		width: 100%;
+		height: auto;
+		transition: all 0.3s ease-in-out;
+	}
+	nav ul {
+		flex-direction: column;
+		gap: 18px;
+	}
+	nav ul li {
+		text-align: center;
+	}
+	nav ul li a {
+		font-size: 24px;
+	}
+	.input-container {
+		width: 100%;
+		justify-content: center;
+		padding: 0 15px;
+	}
+	.text-input {
+		width: 80%;
+		height: 60px;
+	}
+	.arrow-button {
+		height: 60px;
+		width: 60px;
+	}
+	.resultsearch {
+		width: 100%;
+		margin: auto;
+		padding: 40px 15px;
+	}
+	.swiper-slide {
+		width: 100% !important;
+		height: auto;
+		margin: 0;
+		max-width: 100%;
+		max-height: auto;
+	}
+	.latest {
+		width: 100%;
+		margin: 0;
+		padding: 80px 15px;
+		height: auto;
+		max-height: 100%;
+	}
+	.resultsearch p,
+	.latest p,
+	#bygenre {
+		margin-bottom: 20px;
+		font-size: 21px;
+	}
+	.sectiongenre {
+		width: 100%;
+		margin: 0;
+		padding: 40px 15px;
+	}
+	.listgenre {
+		margin-bottom: 20px;
+	}
+	.listgenre ul {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.swiper-wrapper {
+		width: 100% !important;
+	}
+	.footer-container {
+		flex-direction: column;
+		gap: 10px;
+		padding: 15px 0;
+	}
+	.footer-links {
+		width: 100%;
+	}
+	.footer-links ul {
+		flex-direction: column;
+		gap: 15px;
+		width: 100%;
+		align-items: center;
+	}
+	.footer-links ul li a {
+		font-size: 18px;
+	}
+	.copyright {
+		width: 100%;
+		text-align: center;
+	}
+	.copyright p {
+		font-size: 18px;
+	}
+	.films-button-prev,
+	.genre-button-prev,
+	.latest-button-prev,
+	.films-button-next,
+	.genre-button-next,
+	.latest-button-next {
+		display: none;
+	}
+	.container-details {
+		flex-direction: column;
+		width: auto;
+		height: auto;
+	}
+	.movie-poster img {
+		display: none;
+	}
+}
+
+#navMenu{
+    display: none;
+}
